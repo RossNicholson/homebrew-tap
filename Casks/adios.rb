@@ -12,8 +12,7 @@ cask "adios" do
   app "Adios.app"
 
   postflight do
-    puts "Adios installed successfully!"
-    puts "Open Adios and enable the extension in Safari Settings → Extensions."
+    system_command "/usr/bin/open", args: ["-a", "Adios"]
   end
 
   zap trash: [
