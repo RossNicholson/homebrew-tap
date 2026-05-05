@@ -1,11 +1,11 @@
 cask "adios" do
   version "0.1.0"
-  sha256 "" # auto-populated by CI on each release
+  sha256 "b1f692890e222bf48ce289c337b8a04e6a662a3949e522bb047d8bef82245a5e"
 
-  url "https://github.com/rossnicholson/adios/releases/download/v#{version}/Adios-#{version}.dmg"
+  url "https://github.com/RossNicholson/adios/releases/download/v#{version}/Adios-#{version}.dmg"
   name "Adios"
   desc "Open-source ad blocker for Safari on macOS"
-  homepage "https://github.com/rossnicholson/adios"
+  homepage "https://github.com/RossNicholson/adios"
 
   depends_on macos: ">= :sequoia"
 
