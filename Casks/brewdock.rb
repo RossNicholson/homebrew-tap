@@ -11,6 +11,8 @@ cask "brewdock" do
 
   app "BrewDock.app"
 
+  uninstall quit: "com.rossnicholson.BrewDock"
+
   zap trash: [
     "~/Library/Application Support/BrewDock",
     "~/Library/Preferences/com.rossnicholson.BrewDock.plist",
