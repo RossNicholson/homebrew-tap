@@ -1,6 +1,6 @@
 cask "adios" do
-  version "0.2.0"
-  sha256 "3fd3c2d800658b0be5aaf7fef472041fc11478cbe9554014f6549c07faf6d5cb"
+  version "0.2.1"
+  sha256 "80f22a68654f7f0c43b5c77bbba64cff886cdfbed68d177557fa95daf280aa6d"
 
   url "https://github.com/RossNicholson/adios/releases/download/v#{version}/Adios-#{version}.dmg"
   name "Adios"
