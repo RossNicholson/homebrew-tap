@@ -4,7 +4,7 @@ cask "brewdock" do
 
   url "https://github.com/RossNicholson/brewdock/releases/download/v#{version}/BrewDock-#{version}.dmg"
   name "BrewDock"
-  desc "Native macOS menu bar app for Homebrew"
+  desc "Menu bar app for Homebrew"
   homepage "https://github.com/RossNicholson/brewdock"
 
   depends_on macos: :ventura
@@ -15,7 +15,7 @@ cask "brewdock" do
 
   zap trash: [
     "~/Library/Application Support/BrewDock",
-    "~/Library/Preferences/com.rossnicholson.BrewDock.plist",
     "~/Library/Caches/com.rossnicholson.BrewDock",
+    "~/Library/Preferences/com.rossnicholson.BrewDock.plist",
   ]
 end
