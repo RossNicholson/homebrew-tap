@@ -7,7 +7,7 @@ cask "clawdbar" do
   desc "macOS menu bar app showing Claude Code usage limits at a glance"
   homepage "https://github.com/RossNicholson/clawdbar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ClawdBar.app"
 

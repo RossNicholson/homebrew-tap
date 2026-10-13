@@ -7,7 +7,7 @@ cask "brewdock" do
   desc "Native macOS menu bar app for Homebrew"
   homepage "https://github.com/RossNicholson/brewdock"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "BrewDock.app"
 

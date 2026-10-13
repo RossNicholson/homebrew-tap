@@ -7,7 +7,7 @@ cask "adios" do
   desc "Open-source ad blocker for Safari on macOS"
   homepage "https://github.com/RossNicholson/adios"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Adios.app"
 
