@@ -1,6 +1,6 @@
 cask "mopup" do
-  version "1.0.0"
-  sha256 "3db59fc7e075b9f7ae51fa380abdbb3a5be7dd42b3d26e8f6fb72be29aa2dec7"
+  version "1.1.0"
+  sha256 "b9ce21acd99c82149544e9ce113cf13c4c7d7dbd5e8614f9e3fd926a1f12f9a8"
 
   url "https://github.com/RossNicholson/mop-up/releases/download/v#{version}/MopUp-#{version}.dmg"
   name "Mop Up"
