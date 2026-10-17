@@ -14,6 +14,7 @@ cask "clawdbar" do
   uninstall quit: "com.rossnicholson.ClawdBar"
 
   zap trash: [
+    "~/Library/Application Support/ClawdBar",
     "~/Library/Caches/com.rossnicholson.ClawdBar",
     "~/Library/Preferences/com.rossnicholson.ClawdBar.plist",
   ]
