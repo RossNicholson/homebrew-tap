@@ -1,6 +1,6 @@
 cask "clawdbar" do
-  version "1.2.0"
-  sha256 "228752c77691e16930d9cfa5843e0638f7088e88a181bc1d689ba8866a2a4325"
+  version "1.3.0"
+  sha256 "8b90eceba80ba2658c65e9132755f3ebc809a223846709f2c57d13b6aae242b9"
 
   url "https://github.com/RossNicholson/clawdbar/releases/download/v#{version}/ClawdBar-#{version}.dmg"
   name "ClawdBar"
