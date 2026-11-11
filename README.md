@@ -1,12 +1,13 @@
 # Ross Nicholson's Homebrew tap
 
-Mac apps by [Ross Nicholson](https://rossnicholson.dev), installable with [Homebrew](https://brew.sh). Install any one of them, or all three.
+Mac apps by [Ross Nicholson](https://rossnicholson.dev), installable with [Homebrew](https://brew.sh). Install any one of them, or all four.
 
 | App | What it does | Needs |
 |---|---|---|
 | **[BrewDock](https://github.com/RossNicholson/brewdock)** | Homebrew in your menu bar: browse, install, update and tidy up your apps and tools without the Terminal. | macOS 13 |
 | **[ClawdBar](https://github.com/RossNicholson/clawdbar)** | Your Claude Code 5-hour and 7-day usage limits, always in view in the menu bar. | macOS 13 |
 | **[Mop Up](https://github.com/RossNicholson/mop-up)** | Clean, uninstall and tune up your Mac: a friendly window on the open-source Mole cleaner. | macOS 14 |
+| **[KeyBar](https://github.com/RossNicholson/keybar)** | Your API keys in the Keychain, used by Claude Code through an MCP server without it ever seeing them. | macOS 14 |
 
 ## Install
 
@@ -24,6 +25,10 @@ brew install --cask rossnicholson/tap/clawdbar
 # Mop Up
 brew trust --cask rossnicholson/tap/mopup
 brew install --cask rossnicholson/tap/mopup
+
+# KeyBar
+brew trust --cask rossnicholson/tap/keybar
+brew install --cask rossnicholson/tap/keybar
 ```
 
 Every app is signed and notarized by Apple.
@@ -34,7 +39,7 @@ Each app updates itself: open its **Settings → Check for updates**. Or from th
 
 ```bash
 brew update
-brew upgrade --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup
+brew upgrade --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup rossnicholson/tap/keybar
 ```
 
 (List only the apps you have.)
