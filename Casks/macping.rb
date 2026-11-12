@@ -1,6 +1,6 @@
 cask "macping" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.0.0"
+  sha256 "a51f18f85b48493ee602cc84a2820470ea3053b869094dead513deef06150de7"
 
   url "https://github.com/RossNicholson/macping/releases/download/v#{version}/MacPing-#{version}.dmg"
   name "MacPing"
