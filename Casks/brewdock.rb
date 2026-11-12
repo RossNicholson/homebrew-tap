@@ -1,6 +1,6 @@
 cask "brewdock" do
-  version "1.7.4"
-  sha256 "a0dbfd78ca108f4de74b2b472437e8395ad29fb4d48f2ba58acd0ba0ce5e39fa"
+  version "1.7.5"
+  sha256 "1bb27d1061fc9745c7ed8b2ae0af08787e0f823721428f0796f0e42fb6a83a0e"
 
   url "https://github.com/RossNicholson/brewdock/releases/download/v#{version}/BrewDock-#{version}.dmg"
   name "BrewDock"
