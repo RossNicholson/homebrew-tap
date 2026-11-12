@@ -1,6 +1,6 @@
 # Ross Nicholson's Homebrew tap
 
-Mac apps by [Ross Nicholson](https://rossnicholson.dev), installable with [Homebrew](https://brew.sh). Install any one of them, or all five.
+Mac apps by [Ross Nicholson](https://rossnicholson.dev), installable with [Homebrew](https://brew.sh). Install any one of them, or all six.
 
 | App | What it does | Needs |
 |---|---|---|
@@ -9,6 +9,7 @@ Mac apps by [Ross Nicholson](https://rossnicholson.dev), installable with [Homeb
 | **[Mop Up](https://github.com/RossNicholson/mop-up)** | Clean, uninstall and tune up your Mac: a friendly window on the open-source Mole cleaner. | macOS 14 |
 | **[KeyBar](https://github.com/RossNicholson/keybar)** | Your API keys in the Keychain, used by Claude Code through an MCP server without it ever seeing them. | macOS 14 |
 | **[Repo Radar](https://github.com/RossNicholson/reporadar)** | Every git repo on your Mac with work you haven't committed or pushed, in the menu bar. | macOS 14 |
+| **[MacPing](https://github.com/RossNicholson/macping)** | Ping lots of hosts at once in a grid of live tiles, with port checks, traceroute and a menu bar view. | macOS 14 |
 
 ## Install
 
@@ -34,6 +35,10 @@ brew install --cask rossnicholson/tap/keybar
 # Repo Radar
 brew trust --cask rossnicholson/tap/reporadar
 brew install --cask rossnicholson/tap/reporadar
+
+# MacPing
+brew trust --cask rossnicholson/tap/macping
+brew install --cask rossnicholson/tap/macping
 ```
 
 Every app is signed and notarized by Apple.
@@ -44,7 +49,7 @@ Each app updates itself: open its **Settings → Check for updates**. Or from th
 
 ```bash
 brew update
-brew upgrade --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup rossnicholson/tap/keybar rossnicholson/tap/reporadar
+brew upgrade --cask rossnicholson/tap/brewdock rossnicholson/tap/clawdbar rossnicholson/tap/mopup rossnicholson/tap/keybar rossnicholson/tap/reporadar rossnicholson/tap/macping
 ```
 
 (List only the apps you have.)
