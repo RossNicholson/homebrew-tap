@@ -1,6 +1,6 @@
 cask "reporadar" do
-  version "1.1.2"
-  sha256 "88f12a4c11716ea61fa5b4ea81ce627d3a49cf82b09708dca29d4f7a287ca419"
+  version "1.1.3"
+  sha256 "77a1a4b040b279a62332db7844f881c0d4ab73deec10d4fa1dff688096f82135"
 
   url "https://github.com/RossNicholson/reporadar/releases/download/v#{version}/RepoRadar-#{version}.dmg"
   name "RepoRadar"
