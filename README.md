@@ -8,7 +8,7 @@ Mac apps by [Ross Nicholson](https://rossnicholson.dev), installable with [Homeb
 | **[ClawdBar](https://github.com/RossNicholson/clawdbar)** | Your Claude Code 5-hour and 7-day usage limits, always in view in the menu bar. | macOS 13 |
 | **[Mop Up](https://github.com/RossNicholson/mop-up)** | Clean, uninstall and tune up your Mac: a friendly window on the open-source Mole cleaner. | macOS 14 |
 | **[KeyBar](https://github.com/RossNicholson/keybar)** | Your API keys in the Keychain, used by Claude Code through an MCP server without it ever seeing them. | macOS 14 |
-| **[RepoRadar](https://github.com/RossNicholson/reporadar)** | Every git repo on your Mac with work you haven't committed or pushed, in the menu bar. | macOS 14 |
+| **[Repo Radar](https://github.com/RossNicholson/reporadar)** | Every git repo on your Mac with work you haven't committed or pushed, in the menu bar. | macOS 14 |
 
 ## Install
 
@@ -31,7 +31,7 @@ brew install --cask rossnicholson/tap/mopup
 brew trust --cask rossnicholson/tap/keybar
 brew install --cask rossnicholson/tap/keybar
 
-# RepoRadar
+# Repo Radar
 brew trust --cask rossnicholson/tap/reporadar
 brew install --cask rossnicholson/tap/reporadar
 ```
