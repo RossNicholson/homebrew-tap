@@ -1,6 +1,6 @@
 cask "keybar" do
-  version "1.4.7"
-  sha256 "06711ea22350b18b809eafac36d272db1777b3e80d1971acb34a90c309509a24"
+  version "1.4.8"
+  sha256 "9f7c18e7e206879342bef35a9beac51109fb4ccc4aa3257e1aa9f31c9d7291e4"
 
   url "https://github.com/RossNicholson/keybar/releases/download/v#{version}/KeyBar-#{version}.dmg"
   name "KeyBar"
